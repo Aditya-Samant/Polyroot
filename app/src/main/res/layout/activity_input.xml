@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".input">
+
+    <EditText
+        android:id="@+id/degree"
+        android:layout_width="351dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:hint="degree"
+        android:inputType="number|numberDecimal|numberSigned"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="526dp"
+        android:text="Enter"
+        android:layout_centerHorizontal="true"/>
+
+
+    <EditText
+        android:id="@+id/coefficient"
+        android:layout_width="352dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/degree"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="249dp"
+        android:layout_marginEnd="25dp"
+        android:hint="Coefficient"
+        android:inputType="number|numberDecimal|numberSigned"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="217dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="409dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/okay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="231dp"
+        android:text="Okay" />
+
+    <Button
+        android:id="@+id/calcB"
+        android:layout_width="117dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="34dp"
+        android:text="Bisection"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/textView5"
+        android:layout_width="107dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="162dp"
+        android:hint="Enter b" />
+
+    <EditText
+        android:id="@+id/textView6"
+        android:layout_width="117dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:hint="Enter a"
+        android:layout_marginStart="55dp"
+        android:layout_marginBottom="161dp"
+        />
+
+    <Button
+        android:id="@+id/calcN"
+        android:layout_width="124dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="32dp"
+        android:text="Newton rapson" />
+
+
+</RelativeLayout>
